@@ -10,23 +10,29 @@ The Multibinary is a collection of individual C programs organized into modules:
 Each module has its own set of source files(.c) and header files(.h), and this Makefile helps you compile each one seperately or all at once with simple command which is "make".
 
 ### MultiBinary structure:
-.MultiBinary
-|---include
-    |---dataop.h
-    |---mathop.h
-    |---stringop.h
-|---src
-    |---main.c
-    |---dataop
-        |---dataop.c
-        |---main_data.c
-    |---mathop
-        |---mathop.c
-        |---main_math.c
-    |---stringop
-        |---stringop.c
-        |---main_string.c
-.Makefile
+
+MultiBinary
+|--- include
+|    |--- dataop.h
+|    |--- mathop.h
+|    |--- stringop.h
+|
+|--- src
+|    |--- main.c
+|    |--- dataop
+|    |    |--- dataop.c
+|    |    |--- main_data.c
+|    |
+|    |--- mathop
+|    |    |--- mathop.c
+|    |    |--- main_math.c
+|    |
+|    |--- stringop
+|         |--- stringop.c
+|         |--- main_string.c
+|
+ Makefile
+
 
 
 ### Features of the Makefile:
